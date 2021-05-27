@@ -91,6 +91,9 @@
     & > i {
         @include flex(flex-end, center);
         margin-right: 10px;
+        & > img {
+            width: 15px;
+        }
     }
     & > span {
         @include text(12px, Arial, normal, normal);
